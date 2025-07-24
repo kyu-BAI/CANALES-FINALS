@@ -1,0 +1,92 @@
+body {
+    background-color: #4A4A4A;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #4A4A4A;
+}
+
+.header > h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 300px;
+}
+
+.header > h1 > p {
+    font-size: 30px;
+}
+
+.LoginInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.form-field label {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.form-field input {
+    border-radius: 30px;
+    color: white;
+    border: white 5px solid;
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    font-size: 28px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.divider {
+    width: 600px;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    color: white;
+    font-size: 24px;
+}
+
+.divider::before,
+.divider::after {
+    
+    flex: 1;
+    border-bottom: 3px solid white;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+}
+
+.divider::before {
+    right: 55%;
+}
+
+.divider::after {
+    left: 55%;
+}
+.generatebtn{
+    color: white;
+    border: white 5px solid;
+    width: 500px;
+    margin-left: 550px;
+}

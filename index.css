@@ -1,0 +1,40 @@
+body
+{
+    background-color: #4A4A4A;
+  margin: 0;
+   align-items: center;
+    text-align: center;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.Splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #4A4A4A;
+}
+.Splash > img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+}
+.GetStarted  {
+  border-radius: 50px;
+  
+  color: white;
+  border: white 5px solid;
+  max-width: 300px;
+  margin-left: 660px;
+  margin-top: 250px;
+}
+.GetStarted > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
