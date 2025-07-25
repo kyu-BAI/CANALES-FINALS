@@ -1,18 +1,21 @@
 body
 {
-    background-color: #4A4A4A;
-  margin: 0;
-   align-items: center;
+
+ margin: 0;
+align-items: center;
     text-align: center;
     padding: 0;
     font-family: 'Arial', sans-serif;
+    background-image: url(./images/bg\ img.jpg);
+    background-size: cover;
+
 }
 .Splash {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
-    background-color: #4A4A4A;
+  
 }
 .Splash > img{
     display: flex;
