@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    
+    padding: 0;
+    background-color: grey;
+    background-size: cover;
+}
+.uprofile {
+     border: white 5px solid;
+    border-radius: 50px;
+    background-color: #D9D9D9;  
+    padding-left: 1px;
+    padding-right: 1px; 
+    padding:2px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.uimage {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.name{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.sleep >ul>li{
+    list-style: none;
+    color:white;
+}
+.hobbies >ul>li{
+     list-style: none;
+     color:white;
+}
+.csched>ul>li{
+     list-style: none;
+     color:white;
+}
